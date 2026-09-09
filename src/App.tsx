@@ -360,9 +360,11 @@ export default function App() {
                     {r === 'juez' ? 'JUEZ' : r === 'secretario' ? 'SECRETARIO' : r === 'abogado' ? 'ABOGADO' : 'CIUDADANO'}
                   </button>
                 ))}
-              </div>
-            </div>
-
+                      </div>
+                      <div className="text-right text-[10px] font-bold text-red-500/90 tracking-wider uppercase block w-full mt-0.5">
+                      DEMO SOLO PARA DEMOSTRACION
+                      </div>
+          </div>
             {/* Usuario Actual */}
             {currentUser && (
               <div className="flex items-center space-x-3 bg-slate-950 p-2 rounded-lg border border-slate-850">
